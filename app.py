@@ -11,10 +11,10 @@ genai.configure(api_key=api_key)
 
 # Your business knowledge
 business_knowledge = """
-Business Institute - Xerox Solutions Provider in Bahrain
+Business International Group
 
 About Us:
-Business Institute is a leading provider of Xerox document management solutions and services in Bahrain. We specialize in delivering cutting-edge document technology solutions to businesses across various sectors.
+Business International Group is a leading provider of Xerox document management solutions and services in Bahrain. We specialize in delivering cutting-edge document technology solutions to businesses across various sectors.
 
 Our Services:
 - Xerox Document Management Systems
@@ -70,7 +70,7 @@ Answer:"""
 demo = gr.ChatInterface(
     fn=get_response,
     title="🤖 BIBH Xerox Solutions Assistant",
-    description="Welcome to Business Institute Bahrain! Ask me about our Xerox products, services, or support.",
+    description="Welcome to Business International Group! Ask me about our Xerox products, services, or support.",
     examples=[
         "What Xerox printers do you offer?",
         "Do you provide maintenance services?",
@@ -81,4 +81,5 @@ demo = gr.ChatInterface(
 )
 
 if __name__ == "__main__":
+
     demo.launch(share=True)
