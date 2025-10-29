@@ -77,7 +77,7 @@ ANSWER:"""
         return f"Error: {str(e)}"
 
 def main():
-    print("🤖 Business Institute Bahrain - Xerox Solutions Chatbot")
+    print("🤖 Business International  Bahrain - Xerox Solutions Chatbot")
     print("=" * 55)
     
     model, knowledge_base = initialize_chatbot()
@@ -108,4 +108,5 @@ def main():
         print("❌ Failed to initialize. Check errors above.")
 
 if __name__ == "__main__":
+
     main()
